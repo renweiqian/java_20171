@@ -10,7 +10,7 @@ public class _2DArray {
         for (int i = 0; i < ints.length; i++) {
             for (int j = 0; j < ints[i].length; j++) {
                 ints[i][j] = i + j;
-                System.out.print(ints[i][j] + "\t");
+                System.out.print(ints[i] + "\t");
             }
             System.out.println();
         }
