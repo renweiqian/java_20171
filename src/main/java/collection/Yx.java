@@ -6,10 +6,11 @@ package collection;
  */
 public class Yx {
     public static void main(String[] args) {
-        int[][] ints = new int[5][7];
+        int[][] ints = new int[10][10];
         for (int i = 0; i < ints.length; i++) {
             for (int j = 0; j < ints[i].length; j++) {
-                ints[i][j] = i + j;
+            //    ints[i][j] = i + j;
+
                 System.out.print(ints[i][j] + "\t");
             }
             System.out.println();
