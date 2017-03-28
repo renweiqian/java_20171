@@ -10,8 +10,9 @@ public class _2DArray {
         for (int i = 0; i < ints.length; i++) {
             for (int j = 0; j < ints[i].length; j++) {
                 ints[i][j] = i + j;
-                System.out.println(ints[i] + "\t");
+                System.out.print(ints[i][j] + "\t");
             }
+            System.out.println();
         }
         /*
         1, 2, 3, 4, 5
@@ -36,7 +37,7 @@ public class _2DArray {
 
         for (int i = 0; i < doubles.length; i++) {
             for (int j = 0; j < doubles[i].length; j++) {
-                System.out.print(doubles[i] + "\t");
+                System.out.print(doubles[i][j] + "\t");
             }
             System.out.println();
         }
