@@ -4,6 +4,7 @@ package collection;  //定义包
  * Created by 任纹乾 on
  * 2017/3/31.
  */
+
 public class Basics {//创建的类
     static int ONE = 1;//定义类的成员变量
     public static void main(String[] args) {//定义主方法
