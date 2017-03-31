@@ -16,13 +16,21 @@ public class Basics1 {
     boolean v = true;//布尔类型
     float  c = 0.3f;//单精度浮点数
     double b = 0.2;//双精度浮点数
-    byte h = 6;//字节
+    byte x = 48,y = -108, z;//字节            -128---127
+    //定义一个byte型变量型，x.y.z,并赋值给x.y
+    short g = 6;//短整型         -32768---32767
+    int a = 1;//整型             -2147483648---2147483647
+    long  d = 0;//长整型         -92233720336854775808---9223372036854775807
     char f = 8;//字符
-    int a = 1;//整型
-    long  d = 0;//长整型
-    short g = 6;//短整型
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//主方法
+        byte  m = 124;//声明byte型变量并赋值
+        short n = 32564;//声明short型变量并赋值
+        int f = 45784612;//声明int型变量并赋值
+        long g = 46789451L;//声明long型变量并赋值
+        long  h = m + n + f +  g;//获得各数相加后的结果
+        System.out.println(h);//将以上变量相加的结果输出
+
 
     }
 }
