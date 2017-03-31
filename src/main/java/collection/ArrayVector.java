@@ -50,6 +50,8 @@ public class ArrayVector {
         ArrayVector arrayVector = new ArrayVector(2);
         arrayVector.add("hello");
         arrayVector.add("hi");
+        arrayVector.add("hi");
+        arrayVector.add("hi");
         System.out.println(arrayVector.size());
         System.out.println(arrayVector.capacity());
     }
