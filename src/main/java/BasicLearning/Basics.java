@@ -1,4 +1,4 @@
-package collection;  //定义包
+package BasicLearning;  //定义包
 
 /**
  * Created by 任纹乾 on
