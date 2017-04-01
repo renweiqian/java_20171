@@ -15,14 +15,25 @@ public class Basics4{//类
        System.out.println(name + "学习了" + studyTme +"小时");
        return "作业";
    }
-    //void\空的；无效的；没有返回值的时候用void
-    public void work(String foods,double amount){
+    //void\空的；无效的；
+    public void work(boolean b){
+       if  (b){
+           return;
+       }
+       //...
+        // ...
+        // ...
+        if (b){
+
+        }else{
+
+        }
+    }
+    public void eat(String foods,double amount){
         System.out.println(name + "吃了" + amount + foods);
-    }
-    public void eat(){
 
     }
-    public void sleep(){
-
+    public int  sleep(boolean isPlayGame){
+        return isPlayGame ? 1 : 8;
     }
 }
