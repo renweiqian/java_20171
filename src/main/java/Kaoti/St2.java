@@ -7,7 +7,7 @@ package Kaoti;
 public class St2 {
     public static void main(String[] args){
         StringBuffer n1 = new StringBuffer();
-        String n2 = "abc";
+        String n2 = "abcSDSFD@#";
         char m[] = n2.toCharArray();
         for(int i = 0; i<n2.length(); i++){if(m[i]>=97){
             n1.append((m[i]+"").toUpperCase());
