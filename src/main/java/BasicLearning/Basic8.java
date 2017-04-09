@@ -7,7 +7,7 @@ package BasicLearning;
 public class Basic8 {
     public static void main(String[] args) {
         StringBuffer stringBuffer =new StringBuffer("Holle");
-        stringBuffer.append("world");
+        stringBuffer.append(" world");
         System.out.println(stringBuffer);
         System.out.println(stringBuffer.delete(5,6));
         System.out.println(stringBuffer.insert(5,","));
@@ -15,5 +15,11 @@ public class Basic8 {
         System.out.println(stringBuffer.reverse());
         stringBuffer.reverse().setCharAt(0,'h');
         System.out.println(stringBuffer);
+
+
+        StringBuffer stringBuffer1 = new StringBuffer();
+        stringBuffer1.append("hello");
+        stringBuffer1.append(" world");
+        System.out.println(stringBuffer1.capacity());
     }
 }

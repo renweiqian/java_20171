@@ -10,10 +10,8 @@ public class Basic7 {
         int sum = 0;
         System.out.println("一维数组中个元素的和是：");
         for (int i = 0; i < 10; i++) {
-            if (i == 9) {
-                System.out.println(num[i] + "=");
-            } else {
-                System.out.println(num[i] + "+");
+            if (i == 10) {
+                System.out.println(num[i]);
             }
             sum = sum + num[i];
         }
