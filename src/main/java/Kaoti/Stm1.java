@@ -13,8 +13,9 @@ public class Stm1 {
         System.out.println("请输入");
          String s= scanner.nextLine();
          int n = 0;
-        for(int i=0;i<s.length();i++){
-          n = n + s.charAt(i);
+        for(int i=1;i<=s.length();i++){
+            System.out.println(i);
+          n = n + i;
         }
         System.out.println(n);
     }

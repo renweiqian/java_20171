@@ -32,5 +32,9 @@ public class HashableTest {
         for (Map.Entry<Integer, String> integerStringEntry : hashtable.entrySet()) {
             System.out.println(integerStringEntry.getKey() + "->" + integerStringEntry.getValue());
         }
+        System.out.println(hashtable.toString());
+        System.out.println(hashtable.contains(2));
+        System.out.println(hashtable.containsValue("hi"));
+        System.out.println("test");
     }
 }
