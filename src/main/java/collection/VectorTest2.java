@@ -20,5 +20,6 @@ public class VectorTest2 {
         System.out.println(list.size());//size判断集合中元素的个数
         list.clear();//clear用来清除数组中，或者列表中的数据的
         System.out.println(list);
+
     }
 }
