@@ -27,6 +27,8 @@ public class HashMapTest {
         }
         for (Map.Entry<Integer,String> entry: msp.entrySet()){
             System.out.println(entry.getKey()+">"+entry.getValue());
+
+
         }
 
     }
