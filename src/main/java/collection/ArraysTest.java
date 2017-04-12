@@ -1,6 +1,8 @@
 package collection;
-import com.sun.media.sound.SoftTuning;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.List;
 
 /**
  * Created by 任纹乾 on
@@ -36,5 +38,5 @@ public class ArraysTest {
         System.out.println(strings1);
 
     }
-    }
+
 }
