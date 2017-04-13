@@ -37,6 +37,7 @@ public class ArraysTest {
         Collections.reverse(strings1);
         System.out.println(strings1);
 
+
     }
 
 }
