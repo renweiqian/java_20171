@@ -10,7 +10,7 @@ public class InputStreamTest {
     public static void main(String[] arge){
         InputStream inputStream = null;
         try {
-            inputStream = new FileInputStream("");
+            inputStream = new FileInputStream("test");
             int i;
             while ((i = inputStream.read())!= -1){
                 System.out.println((char)i);
