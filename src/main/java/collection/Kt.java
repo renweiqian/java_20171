@@ -1,4 +1,4 @@
-
+package collection;
 
 public class Kt {
     public static void main(String[] args) {
