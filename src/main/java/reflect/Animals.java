@@ -15,5 +15,11 @@ class Animals {
         this.age = age;
         this.weight = weight;
     }
+    public int sleep(int hours){
+        return hours;
+    }
+    public void eat(String food){
+        System.out.println("eating"+food);
+    }
 
 }
